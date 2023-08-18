@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>ARCHIK INTERIEUR</title>
+    <style>
+        header {
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            background: #9FD7D3;
+            width: 1920px;
+            height: 119px;
+            opacity: 0.7;
+        }
+        header h1 a{
+            color: white;
+            position: relative;
+            top: 16px; left: 100px;
+            text-decoration: none;
+        }
+        header nav ul {
+            list-style-type: none;
+            float: left;
+            display: flex;
+            position: relative;
+            top: -50px; left: 1500px;
+        }
+        header nav ul li {
+            margin-left: 30px;
+            font-size: 20px;
+        }
+        header nav ul li a {
+            text-decoration: none;
+            color: #FFFFFF;
+        }
+        body {
+            background: url(), black;
+
+        }
+        picture img {
+            position: absolute;
+            width: 1920px;
+            height: 996px;
+            left: 0px;
+            top: -8px;
+            z-index: -1; /* Place l'image en arrière-plan */
+        }
+        picture.image-container {
+            position: relative;
+            width: 52px;
+            height: 52px;
+            margin-left: 80px;
+        }
+        picture.image-container img {
+            float: left;
+            display: flex;
+            position: absolute;
+            top: 201px;
+            left: 1560px;
+            width: 52px;
+            height: 52px;
+        }
+        h1.description{
+            position: absolute;
+            width: 750px;
+            height: 108px;
+            left: 85px;
+            top: 206px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 36px;
+
+            color: #FFFFFF;
+        }
+        section.section-group {
+            position: relative;
+            padding: 20px;
+            float: left;
+            display: flex;
+            margin: 290px;
+        }
+        section p {
+            position: absolute;
+            width: 400px;
+            height: 183px;
+            left: -165px;
+            top: 1000px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-size: 23px;
+            text-align: center;
+            color: #FFFFFF;
+        }
+        section h2 {
+            position: absolute;
+            width: 96px;
+            height: 30px;
+            left: -10px;
+            top: 950px;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-size: 25px;
+            color: #FFFFFF;
+        }
+
+        section.section-group::before {
+            content: '';
+            width: 500px;
+            height: 500px;
+            background-color: #9FD7D3;
+            border-radius: 50%;
+            position: absolute;
+            width: 466px;
+            height: 464px;
+            left: -200px;
+            top: 780px;
+            z-index: -1;
+        }
+        section p mark {
+            font-style: normal;
+            background-color: transparent;
+            font-weight: bold;
+            font-size: 1em;
+            color: #FFFFFF;
+        }
+        hr {
+            border: none;
+            display: block;
+            border-top: 10px dashed #9FD7D3;
+            position: relative;
+            top: 1250px; left: 70px;
+            z-index: -1;
+            width: 50%;
+        }
+        main section picture img {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            top: 850px;
+            left: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="titre"><a href="#">ARCHIK INTERIEUR</a></h1>
+        <nav>
+            <ul>
+                <li><a href="#" title="Lien vers nos services">Services</a></li>
+                <li><a href="#" title="Allez jeter un oeil sur les projets réalisés dans notre entreprise">Projets</a></li>
+                <li><a href="#" title="Nous contacter">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <picture>
+        <source srcset="pictures/Image_d'accueil.jpg" type="image/jpg">
+        <img src="pictures/Image_d'accueil.jpg" alt="Image d'accueil">
+    </picture>
+    <picture class="image-container">
+        <img src="pictures/linkedin.png">
+    </picture>
+    <picture class="image-container">
+        <img src="pictures/facebook.png">
+    </picture>
+    <picture class="image-container">
+        <img src="pictures/instagram.png">
+    </picture>
+    <h1 class="description">VOTRE PROJET D'ARCHITECTURE ET DÉCORATION <br> D'INTÉRIEUR EN BELGIQUE ET HAUTS-DE-FRANCE <br>(TOURNAI, LILLE, TOURCOING)</h1>
+    <main>
+        <section class="section-group">
+            <picture>
+                <source type="image/png" srcset="pictures/mdi_design.png">
+                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+            </picture>
+            <h2>DESIGN</h2>
+            <p>Un projet d’Architecture d’Intérieur<br>
+                qui reflète <mark>votre marque</mark>, pour créer<br>
+                des espaces au design unique. <br>
+                L’appropriation du lieu par l’usager<br>
+                sera <mark>au centre de la réflexion</mark>.</p>
+        </section>
+        <section class="section-group">
+            <picture>
+                <source type="image/png" srcset="pictures/mdi_design.png">
+                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+            </picture>
+            <h2>DESIGN</h2>
+            <p>Un projet d’Architecture d’Intérieur<br>
+                qui reflète <mark>votre marque</mark>, pour créer<br>
+                des espaces au design unique. <br>
+                L’appropriation du lieu par l’usager<br>
+                sera <mark>au centre de la réflexion</mark>.</p>
+        </section>
+        <section class="section-group">
+            <picture>
+                <source type="image/png" srcset="pictures/mdi_design.png">
+                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+            </picture>
+            <h2>DESIGN</h2>
+            <p>Un projet d’Architecture d’Intérieur<br>
+                qui reflète <mark>votre marque</mark>, pour créer<br>
+                des espaces au design unique. <br>
+                L’appropriation du lieu par l’usager<br>
+                sera <mark>au centre de la réflexion</mark>.</p>
+        </section>
+        <hr>
+    </main>
+</body>
+</html>
