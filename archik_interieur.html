@@ -3,6 +3,10 @@
 <head>
     <title>ARCHIK INTERIEUR</title>
     <style>
+        body {
+            /* background: linear-gradient(to right, white, #6bd3cc); */
+            background-color: aqua;
+        }
         header {
             position: absolute;
             top: 0px;
@@ -10,13 +14,17 @@
             background: #9FD7D3;
             width: 1920px;
             height: 119px;
-            opacity: 0.7;
+            opacity: 0.8;
         }
-        header h1 a{
+        header h1 a {
             color: white;
             position: relative;
             top: 16px; left: 100px;
             text-decoration: none;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
         }
         header nav ul {
             list-style-type: none;
@@ -24,6 +32,8 @@
             display: flex;
             position: relative;
             top: -50px; left: 1500px;
+            font-family: 'Inter';
+            font-style: normal;
         }
         header nav ul li {
             margin-left: 30px;
@@ -31,10 +41,8 @@
         }
         header nav ul li a {
             text-decoration: none;
+            font-size: 20px;
             color: #FFFFFF;
-        }
-        body {
-            background: linear-gradient(to right, white, #6bd3cc);
         }
         picture img {
             position: absolute;
@@ -292,6 +300,137 @@
             font-size: 1em;
             color: black;
         }
+        section h1 {
+            position: absolute;
+            width: 427px;
+            height: 54px;
+            left: 746px;
+            top: 4100px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-size: 40px;
+            text-align: center;
+            color: #9FD7D3;
+        }
+        section figure.Originalité_p1 {
+            position: absolute;
+            width: 371px;
+            height: 372px;
+            left: 50px;
+            top: 4250px;
+            background: #9FD7D3;
+            border-radius: 5px;
+        }
+        section figure.Satisfaction {
+            position: absolute;
+            width: 371px;
+            height: 372px;
+            left: 500px;
+            top: 4250px;
+            background: #9FD7D3;
+            border-radius: 5px;
+        }
+        section figure.oeuvre {
+            position: absolute;
+            width: 371px;
+            height: 372px;
+            left: 950px;
+            top: 4250px;
+            background: #9FD7D3;
+            border-radius: 5px;
+        }
+        section figure.Originalité_p2 {
+            position: absolute;
+            width: 371px;
+            height: 372px;
+            left: 1400px;
+            top: 4250px;
+            background: #9FD7D3;
+            border-radius: 5px;
+        }
+        section figure.Originalité_p1 figcaption {
+            position: absolute;
+            width: 213px;
+            height: 48px;
+            left: 80px;
+            top: 250px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: white;
+        }
+        section figure.Satisfaction figcaption {
+            position: absolute;
+            width: 213px;
+            height: 48px;
+            left: 80px;
+            top: 250px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: white;
+        }
+        section figure.oeuvre figcaption {
+            position: absolute;
+            width: 213px;
+            height: 48px;
+            left: 80px;
+            top: 250px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        section figure.Originalité_p2 figcaption {
+            position: absolute;
+            width: 213px;
+            height: 48px;
+            left: 80px;
+            top: 250px;
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: white;
+        }
+        section figure.Originalité_p1 img {
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            top: 65px;
+            left: 120px;
+        }
+        section figure.Satisfaction img {
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            top: 65px;
+            left: 120px;
+        }
+        section figure.oeuvre img {
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            top: 65px;
+            left: 120px;
+        }
+        section figure.Originalité_p2 img {
+            position: absolute;
+            width: 135px;
+            height: 135px;
+            top: 65px;
+            left: 120px;
+        }
     </style>
 </head>
 <body>
@@ -418,5 +557,24 @@
             <a href="#">Découvrir les services -></a>
         </article>
     </article>
+    <section>
+        <h1>ARCHIK INTERIEUR</h1>
+        <figure class="Originalité_p1">
+            <img src="pictures/icons8_idea.png" alt="Idée">
+            <figcaption>100%<br>Originalité</figcaption>
+        </figure>
+        <figure class="Satisfaction">
+            <img src="pictures/uiw_like-o.png" alt="pouce levé">
+            <figcaption>100%<br>Satisfaction</figcaption>
+        </figure>
+        <figure class="oeuvre">
+            <img src="pictures/mdi_eye-outline.png" alt="oeil">
+            <figcaption>100%<br>Maîtrise d'oeuvre</figcaption>
+        </figure>
+        <figure class="Originalité_p2">
+            <img src="pictures/radix-icons_size.png" alt="agrandissement">
+            <figcaption>100%<br>Originalité</figcaption>
+        </figure>
+    </section>
 </body>
 </html>
