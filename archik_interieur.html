@@ -4,7 +4,8 @@
     <title>ARCHIK INTERIEUR</title>
     <style>
         body {
-            background: linear-gradient(to right, white, #6bd3cc);
+            /* background: linear-gradient(to right, white, #6bd3cc); */
+            background-color: white;
         }
         header {
             position: absolute;
@@ -40,7 +41,7 @@
         }
         header nav ul li a {
             text-decoration: none;
-            font-size: 20px;
+            font-size: 25px;
             color: #FFFFFF;
         }
         picture img {
@@ -72,13 +73,13 @@
             height: 108px;
             left: 85px;
             top: 206px;
-
+            
             font-family: 'Inter';
             font-style: normal;
             font-weight: 500;
             font-size: 30px;
             line-height: 36px;
-
+            
             color: #FFFFFF;
         }
         section.section-group {
@@ -94,14 +95,29 @@
             height: 30px;
             left: -40px;
             top: 930px;
-
+            white-space: nowrap;
             font-family: 'Inter';
             font-style: normal;
             font-size: 25px;
             color: #FFFFFF;
             float: left;
             display: flex;
-            margin-left: 20px;
+            margin-left: 10px;
+        }
+        section.section-group h2.design {
+            position: absolute;
+            top: 940px;
+            left: -20px;
+        }
+        section.section-group h2.concept {
+            position: absolute;
+            top: 940px;
+            left: -30px;
+        }
+        section.section-group h2.mise_en_oeuvre {
+            position: absolute;
+            top: 940px;
+            left: -75px;
         }
         section.section-group p {
             position: absolute;
@@ -109,7 +125,7 @@
             height: 183px;
             left: -165px;
             top: 1000px;
-
+            
             font-family: 'Inter';
             font-style: normal;
             font-size: 23px;
@@ -1146,7 +1162,7 @@
                 <source type="image/png" srcset="pictures/mdi_design.png">
                 <img src="pictures/mdi_design.png" alt="Image 1(design)">
             </picture>
-            <h2>DESIGN</h2>
+            <h2 class="design">DESIGN</h2>
             <p>Un projet d’Architecture d’Intérieur<br>
                 qui reflète <mark>votre marque</mark>, pour créer<br>
                 des espaces au design unique. <br>
@@ -1158,7 +1174,7 @@
                 <source type="image/png" srcset="pictures/compass.png">
                 <img src="pictures/compass.png" alt="Image 2(concept)">
             </picture>
-            <h2>CONCEPT</h2>
+            <h2 class="concept">CONCEPT</h2>
             <p>Un concept <mark>sur-mesure</mark> qui vous <br>
                 correspondra et donnera après de <br>
                 minutieuses observations un projet <br>
@@ -1169,7 +1185,7 @@
                 <source type="image/png" srcset="pictures/cards.png">
                 <img src="pictures/cards.png" alt="Image 3(mise en oeuvre)">
             </picture>
-            <h2>MISE EN OEUVRE</h2>
+            <h2 class="mise_en_oeuvre">MISE EN OEUVRE</h2>
             <p>La mise en œuvre, la direction et le <br>
                 suivi de chantier. Un service global <br>
                 pour un <mark>projet personnalisé</mark>. <br>
