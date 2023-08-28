@@ -6,7 +6,7 @@ header {
     top: 0px;
     left: 0px;
     background: #9FD7D3;
-    width: 1905px;
+    width: 100%;
     height: 119px;
     opacity: 0.8;
 }
@@ -67,13 +67,11 @@ h1.description{
     height: 108px;
     left: 85px;
     top: 206px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
     line-height: 36px;
-    
     color: #FFFFFF;
 }
 section.section-group {
@@ -119,7 +117,6 @@ section.section-group p {
     height: 183px;
     left: -165px;
     top: 1000px;
-    
     font-family: 'Inter';
     font-style: normal;
     font-size: 23px;
@@ -163,7 +160,7 @@ main section picture img {
     top: 850px;
     left: 0px;
 }
-article.all-informations article.Introduction {
+article.Introduction {
     background-color: white;
     position: absolute;
     width: 1905px;
@@ -171,14 +168,14 @@ article.all-informations article.Introduction {
     left: 0px;
     top: 1700px;
 }
-article.all-informations article.Introduction picture img {
+article.Introduction picture img {
     width: 923px;
     height: 657px;
     z-index: 1;
     position: absolute;
     top: 0px; left: 0px;
 }
-article.all-informations article.Introduction h2 {
+article.Introduction h2 {
     position: absolute;
     width: 192px; height: 48px;
     top: 78px;
@@ -188,7 +185,7 @@ article.all-informations article.Introduction h2 {
     font-family: 'Inter';
     color: #9FD7D3;
 }
-article.all-informations article.Introduction p {
+article.Introduction p {
     position: absolute;
     width: 838px;
     height: 336px;
@@ -200,7 +197,7 @@ article.all-informations article.Introduction p {
     font-size: 20px;
     color: #888888;
 }
-article.all-informations article.Introduction p mark {
+article.Introduction p mark {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
@@ -208,7 +205,7 @@ article.all-informations article.Introduction p mark {
     color: black;
 }
 
-article.all-informations article.Présentation_fondatrice {
+article.Présentation_fondatrice {
     background-color: white;
     position: absolute;
     width: 1905px;
@@ -217,7 +214,7 @@ article.all-informations article.Présentation_fondatrice {
     top: 2500px;
 }
 
-article.all-informations article.Présentation_fondatrice h2 {
+article.Présentation_fondatrice h2 {
     position: absolute;
     width: 192px;
     height: 48px;
@@ -228,7 +225,7 @@ article.all-informations article.Présentation_fondatrice h2 {
     font-size: 40px;
     color: #9FD7D3;
 }
-article.all-informations article.Présentation_fondatrice picture img {
+article.Présentation_fondatrice picture img {
     z-index: 1;
     position: absolute;
     width: 920px;
@@ -236,7 +233,7 @@ article.all-informations article.Présentation_fondatrice picture img {
     left: 985px;
     top: 0px;
 }
-article.all-informations article.Présentation_fondatrice p {
+article.Présentation_fondatrice p {
     position: absolute;
     top: 150px;
     left: 80px;
@@ -245,14 +242,14 @@ article.all-informations article.Présentation_fondatrice p {
     font-size: 20px;
     color: #888888;
 }
-article.all-informations article.Présentation_fondatrice p mark {
+article.Présentation_fondatrice p mark {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
     font-size: 1em;
     color: black;
 }
-article.all-informations article.Services {
+article.Services {
     background-color: white;
     position: absolute;
     width: 1905px;
@@ -260,7 +257,7 @@ article.all-informations article.Services {
     left: 0px;
     top: 3300px;
 }
-article.all-informations article.Services h2 {
+article.Services h2 {
     color: #9FD7D3;
     position: absolute;
     width: 192px;
@@ -271,7 +268,7 @@ article.all-informations article.Services h2 {
     font-style: normal;
     font-size: 40px;
 }
-article.all-informations article.Services picture img {
+article.Services picture img {
     z-index: 1;
     position: absolute;
     width: 923px;
@@ -279,7 +276,7 @@ article.all-informations article.Services picture img {
     left: 0px;
     top: 0px;
 }
-article.all-informations article.Services p {
+article.Services p {
     position: absolute;
     top: 150px;
     left: 1000px;
@@ -288,7 +285,7 @@ article.all-informations article.Services p {
     font-size: 20px;
     color: #888888;
 }
-article.all-informations article.Services a {
+article.Services a {
     text-decoration: none;
     position: absolute;
     top: 600px;
@@ -301,7 +298,7 @@ article.all-informations article.Services a {
     font-size: 23px;
     line-height: 28px;
 }
-article.all-informations article.Services p mark {
+article.Services p mark {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
