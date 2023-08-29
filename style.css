@@ -29,16 +29,16 @@ header nav ul {
     font-family: 'Inter';
     font-style: normal;
 }
-header nav ul li {
+header li {
     margin-left: 30px;
     font-size: 20px;
 }
-header nav ul li a {
+header li a {
     text-decoration: none;
     font-size: 25px;
     color: #FFFFFF;
 }
-picture img {
+section.hero-banner picture.Home_picture img {
     position: absolute;
     width: 1905px;
     height: 996px;
@@ -46,7 +46,7 @@ picture img {
     top: -8px;
     z-index: -1;
 }
-picture.image-container {
+section.hero-banner picture.image-container {
     position: relative;
     width: 52px;
     height: 52px;
@@ -123,7 +123,6 @@ section.section-group p {
     text-align: center;
     color: #FFFFFF;
 }
-
 section.section-group::before {
     content: '';
     width: 500px;
@@ -191,7 +190,6 @@ article.Introduction p {
     height: 336px;
     left: 997px;
     top: 200px;
-
     font-family: 'Inter';
     font-style: normal;
     font-size: 20px;
@@ -204,8 +202,7 @@ article.Introduction p mark {
     font-size: 1em;
     color: black;
 }
-
-article.Présentation_fondatrice {
+article.Presentation_founder {
     background-color: white;
     position: absolute;
     width: 1905px;
@@ -214,7 +211,7 @@ article.Présentation_fondatrice {
     top: 2500px;
 }
 
-article.Présentation_fondatrice h2 {
+article.Presentation_founder h2 {
     position: absolute;
     width: 192px;
     height: 48px;
@@ -225,7 +222,7 @@ article.Présentation_fondatrice h2 {
     font-size: 40px;
     color: #9FD7D3;
 }
-article.Présentation_fondatrice picture img {
+article.Presentation_founder picture img {
     z-index: 1;
     position: absolute;
     width: 920px;
@@ -233,7 +230,7 @@ article.Présentation_fondatrice picture img {
     left: 985px;
     top: 0px;
 }
-article.Présentation_fondatrice p {
+article.Presentation_founder p {
     position: absolute;
     top: 150px;
     left: 80px;
@@ -242,7 +239,7 @@ article.Présentation_fondatrice p {
     font-size: 20px;
     color: #888888;
 }
-article.Présentation_fondatrice p mark {
+article.Presentation_founder p mark {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
@@ -317,7 +314,7 @@ section h1 {
     text-align: center;
     color: #9FD7D3;
 }
-section section.Originalité_p1 {
+section section.Originality_p1 {
     position: absolute;
     width: 371px;
     height: 372px;
@@ -335,7 +332,7 @@ section section.Satisfaction {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section section.oeuvre {
+section section.Project_management {
     position: absolute;
     width: 371px;
     height: 372px;
@@ -344,7 +341,7 @@ section section.oeuvre {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section section.Originalité_p2 {
+section section.Originality_p2 {
     position: absolute;
     width: 371px;
     height: 372px;
@@ -353,7 +350,7 @@ section section.Originalité_p2 {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section section.Originalité_p1 h2 {
+section section.Originality_p1 h2 {
     position: absolute;
     width: 213px;
     height: 48px;
@@ -366,7 +363,7 @@ section section.Originalité_p1 h2 {
     text-align: center;
     color: white;
 }
-section section.Originalité_p1 h3 {
+section section.Originality_p1 h3 {
     position: absolute;
     width: 213px;
     height: 48px;
@@ -405,7 +402,7 @@ section section.Satisfaction h3 {
     text-align: center;
     color: white;
 }
-section section.oeuvre h2 {
+section section.Project_management h2 {
     position: absolute;
     width: 213px;
     height: 48px;
@@ -418,7 +415,7 @@ section section.oeuvre h2 {
     text-align: center;
     color: white;
 }
-section section.oeuvre h3 {
+section section.Project_management h3 {
     position: absolute;
     width: 213px;
     left: 40px;
@@ -430,7 +427,7 @@ section section.oeuvre h3 {
     white-space: nowrap;
     color: white;
 }
-section section.Originalité_p2 h2 {
+section section.Originality_p2 h2 {
     position: absolute;
     width: 213px;
     height: 48px;
@@ -443,7 +440,7 @@ section section.Originalité_p2 h2 {
     text-align: center;
     color: white;
 }
-section section.Originalité_p2 h3 {
+section section.Originality_p2 h3 {
     position: absolute;
     width: 213px;
     height: 48px;
@@ -456,7 +453,7 @@ section section.Originalité_p2 h3 {
     text-align: center;
     color: white;
 }
-section section.Originalité_p1 img {
+section section.Originality_p1 img {
     position: absolute;
     width: 135px;
     height: 135px;
@@ -470,14 +467,14 @@ section section.Satisfaction img {
     top: 65px;
     left: 120px;
 }
-section section.oeuvre img {
+section section.Project_management img {
     position: absolute;
     width: 135px;
     height: 135px;
     top: 65px;
     left: 120px;
 }
-section section.Originalité_p2 img {
+section section.Originality_p2 img {
     position: absolute;
     width: 135px;
     height: 135px;
