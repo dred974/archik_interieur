@@ -2,149 +2,7 @@
 <html>
 <head>
     <title>ARCHIK INTERIEUR</title>
-    <style>
-        header {
-            position: absolute;
-            top: 0px;
-            left: 0px;
-            background: #9FD7D3;
-            width: 1920px;
-            height: 119px;
-            opacity: 0.7;
-        }
-        header h1 a{
-            color: white;
-            position: relative;
-            top: 16px; left: 100px;
-            text-decoration: none;
-        }
-        header nav ul {
-            list-style-type: none;
-            float: left;
-            display: flex;
-            position: relative;
-            top: -50px; left: 1500px;
-        }
-        header nav ul li {
-            margin-left: 30px;
-            font-size: 20px;
-        }
-        header nav ul li a {
-            text-decoration: none;
-            color: #FFFFFF;
-        }
-        body {
-            background: url(), black;
-
-        }
-        picture img {
-            position: absolute;
-            width: 1920px;
-            height: 996px;
-            left: 0px;
-            top: -8px;
-            z-index: -1; /* Place l'image en arrière-plan */
-        }
-        picture.image-container {
-            position: relative;
-            width: 52px;
-            height: 52px;
-            margin-left: 80px;
-        }
-        picture.image-container img {
-            float: left;
-            display: flex;
-            position: absolute;
-            top: 201px;
-            left: 1560px;
-            width: 52px;
-            height: 52px;
-        }
-        h1.description{
-            position: absolute;
-            width: 750px;
-            height: 108px;
-            left: 85px;
-            top: 206px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-weight: 500;
-            font-size: 30px;
-            line-height: 36px;
-
-            color: #FFFFFF;
-        }
-        section.section-group {
-            position: relative;
-            padding: 20px;
-            float: left;
-            display: flex;
-            margin: 290px;
-        }
-        section p {
-            position: absolute;
-            width: 400px;
-            height: 183px;
-            left: -165px;
-            top: 1000px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-size: 23px;
-            text-align: center;
-            color: #FFFFFF;
-        }
-        section h2 {
-            position: absolute;
-            width: 96px;
-            height: 30px;
-            left: -10px;
-            top: 950px;
-
-            font-family: 'Inter';
-            font-style: normal;
-            font-size: 25px;
-            color: #FFFFFF;
-        }
-
-        section.section-group::before {
-            content: '';
-            width: 500px;
-            height: 500px;
-            background-color: #9FD7D3;
-            border-radius: 50%;
-            position: absolute;
-            width: 466px;
-            height: 464px;
-            left: -200px;
-            top: 780px;
-            z-index: -1;
-        }
-        section p mark {
-            font-style: normal;
-            background-color: transparent;
-            font-weight: bold;
-            font-size: 1em;
-            color: #FFFFFF;
-        }
-        hr {
-            border: none;
-            display: block;
-            border-top: 10px dashed #9FD7D3;
-            position: relative;
-            top: 1250px; left: 70px;
-            z-index: -1;
-            width: 50%;
-        }
-        main section picture img {
-            position: absolute;
-            width: 80px;
-            height: 80px;
-            top: 850px;
-            left: 0px;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
@@ -158,26 +16,26 @@
         </nav>
     </header>
     <picture>
-        <source srcset="pictures/Image_d'accueil.jpg" type="image/jpg">
-        <img src="pictures/Image_d'accueil.jpg" alt="Image d'accueil">
+        <source srcset="pictures/Image_d'accueil.webp" type="image/webp">
+        <img src="pictures/Image_d'accueil.webp" alt="Image d'accueil">
     </picture>
     <picture class="image-container">
-        <img src="pictures/linkedin.png">
+        <img src="pictures/linkedin.webp">
     </picture>
     <picture class="image-container">
-        <img src="pictures/facebook.png">
+        <img src="pictures/facebook.webp">
     </picture>
     <picture class="image-container">
-        <img src="pictures/instagram.png">
+        <img src="pictures/instagram.webp">
     </picture>
     <h1 class="description">VOTRE PROJET D'ARCHITECTURE ET DÉCORATION <br> D'INTÉRIEUR EN BELGIQUE ET HAUTS-DE-FRANCE <br>(TOURNAI, LILLE, TOURCOING)</h1>
     <main>
         <section class="section-group">
             <picture>
-                <source type="image/png" srcset="pictures/mdi_design.png">
-                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+                <source type="image/webp" srcset="pictures/mdi_design.webp">
+                <img src="pictures/mdi_design.webp" alt="Image 1(design)">
             </picture>
-            <h2>DESIGN</h2>
+            <h2 class="design">DESIGN</h2>
             <p>Un projet d’Architecture d’Intérieur<br>
                 qui reflète <mark>votre marque</mark>, pour créer<br>
                 des espaces au design unique. <br>
@@ -186,29 +44,282 @@
         </section>
         <section class="section-group">
             <picture>
-                <source type="image/png" srcset="pictures/mdi_design.png">
-                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+                <source type="image/webp" srcset="pictures/compass.webp">
+                <img src="pictures/compass.webp" alt="Image 2(concept)">
             </picture>
-            <h2>DESIGN</h2>
-            <p>Un projet d’Architecture d’Intérieur<br>
-                qui reflète <mark>votre marque</mark>, pour créer<br>
-                des espaces au design unique. <br>
-                L’appropriation du lieu par l’usager<br>
-                sera <mark>au centre de la réflexion</mark>.</p>
+            <h2 class="concept">CONCEPT</h2>
+            <p>Un concept <mark>sur-mesure</mark> qui vous <br>
+                correspondra et donnera après de <br>
+                minutieuses observations un projet <br>
+                adéquat à vos besoins.</p>
         </section>
         <section class="section-group">
             <picture>
-                <source type="image/png" srcset="pictures/mdi_design.png">
-                <img src="pictures/mdi_design.png" alt="Image 1(design)">
+                <source type="image/webp" srcset="pictures/cards.webp">
+                <img src="pictures/cards.webp" alt="Image 3(mise en oeuvre)">
             </picture>
-            <h2>DESIGN</h2>
-            <p>Un projet d’Architecture d’Intérieur<br>
-                qui reflète <mark>votre marque</mark>, pour créer<br>
-                des espaces au design unique. <br>
-                L’appropriation du lieu par l’usager<br>
-                sera <mark>au centre de la réflexion</mark>.</p>
+            <h2 class="mise_en_oeuvre">MISE EN OEUVRE</h2>
+            <p>La mise en œuvre, la direction et le <br>
+                suivi de chantier. Un service global <br>
+                pour un <mark>projet personnalisé</mark>. <br>
+                Profitez de prestataires pour un <br>
+                service de <mark>haute qualité</mark>.</p>
         </section>
         <hr>
     </main>
+    <article class="all-informations">
+        <article class="Introduction">
+            <picture>
+                <source type="image/webp" srcset="pictures/camille_archik_interieur 1.webp">
+                <img src="pictures/camille_archik_interieur 1.webp" alt="Camille Cocqueréaumont">
+            </picture>
+            <h2>Ma vision</h2>
+            <p><mark>Archik intérieur</mark> est une agence d’architecture d’intérieur belge créative et dynamique.<br>
+                Elle vous propose des services sur mesure pour votre <mark>projet professionnel</mark> :<br>
+                aménagement de bureaux, restaurations, commerces divers, bars, …<br>
+                <br>
+                Archik intérieur analyse votre activité dans les moindres détails pour créer un <mark>nouveau<br>
+                concept d’affaire</mark> permettant la croissance et le succès de votre activité.<br>
+                <br>
+                Qu’est-ce qui distingue votre activité des autres ?<br>
+                <br>
+                Que vous soyez un artisan, une franchise, une entreprise ou une chaîne hôtelière, votre <br>
+                activité est <mark>une marque</mark>. Vos clients prennent des décisions d’achat avant même d’entrer <br>
+                dans votre établissement, sous l’influence de ce qu’ils voient et perçoivent de l’extérieur.<br>
+                <br>
+                <mark>Archik intérieur</mark> se déplace dans toute la Belgique francophone et les Hauts de France.</p>
+        </article>
+        <article class="Présentation_fondatrice">
+            <h2>Ma vision</h2>
+            <picture>
+                <source type="image/webp" srcset="pictures/camille_archik_interieur 2.webp">
+                <img src="pictures/camille_archik_interieur 2.webp" alt="Camille">
+            </picture>
+            <p><mark>Camille Cocqueréaumont</mark>, fondatrice, est diplômée de l’Académie des Beaux-Arts<br>
+                de Tournai en 2017 et spécialisée en rénovation.<br>
+                <br>
+                Les exigences des flux des clients et du travail du personnel, sont également sa<br>
+                préoccupation prioritaire. Le but est de créer des endroits <mark>fonctionnels et uniques</mark>. Les <br>
+                valeurs des entreprises doivent s'y retrouver. Je concilie ces aspects pour que les<br>
+                espaces soient également propices à la productivité.<br>
+                <br>
+                Des lieux de passage suscitent obligatoirement des émotions. Pour que les souvenirs y<br>
+                soient ancrés positivement, j’accorde beaucoup d’importance à <mark>l’harmonie de<br>
+                l’ensemble</mark>, en apportant une touche de modernité.<br>
+                <br>
+                Mon objectif est clair : vous faire gagner du temps, augmenter la productivité de vos<br>
+                employés et de faire accroître <mark>votre chiffre d’affaire.</mark></p>
+        </article>
+        <article class="Services">
+            <h2>Services</h2>
+            <picture>
+                <source type="image/webp" srcset="pictures/camille_archik_interieur 3.webp">
+                <img src="pictures/camille_archik_interieur 3.webp" alt="Services d'archik interieur">
+            </picture>
+            <p>Vous désirez immerger les clients de vôtre magasin dans un design d’intérieur unique, ou bien<br>
+                booster l’ambiance de travail dans vos bureaux ?<br>
+                <br>
+                <mark>Archik intérieur</mark> s’occupe de conceptualiser, d’organiser et de réaliser votre projet. <mark>De la <br>
+                conception à la concrétisation</mark> de votre intérieur, notre souci du détail et notre travail <br>
+                soigné reflètent l’intérêt passionné que nous portons à <mark>votre objectif.</mark><br>
+                <br>
+                Venez découvrir <mark>nos formules</mark> sur-mesure.
+            </p>
+            <a href="#">Découvrir les services -></a>
+        </article>
+    </article>
+    <section>
+        <h1>ARCHIK INTERIEUR</h1>
+        <section class="Originalité_p1">
+            <img src="pictures/icons8_idea.webp" alt="Idée">
+            <h2>100%</h2>
+            <h3>Originalité</h3>
+        </section>
+        <section class="Satisfaction">
+            <img src="pictures/uiw_like-o.webp" alt="pouce levé">
+            <h2>100%</h2>
+            <h3>Satisfaction</h3>
+        </section>
+        <section class="oeuvre">
+            <img src="pictures/mdi_eye-outline.webp" alt="oeil">
+            <h2>100%</h2>
+            <h3>Maîtrise d'oeuvre</h3>
+        </section>
+        <section class="Originalité_p2">
+            <img src="pictures/radix-icons_size.webp" alt="agrandissement">
+            <h2>100%</h2>
+            <h3>Originalité</h3>
+        </section>
+    </section>
+    <article class="comment_1">
+        <p>Encore merci Camille et toutes<br>
+            mes félicitations pour votre travail.<br>
+            <br>
+            J'ai eu raison de vous faire
+            <br> confiance. Le résultat est super ! <br>
+            <br>
+            <br>C'était un réel plaisir de travailler <br>
+            avec un créateur d'intérieur.
+        </p>
+        <a>Lire plus -></a>
+        <h4>Anthony F.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_2">
+        <p>Écoute, créativité, convivialité<br>
+            et professionnalisme, je recommande<br>
+            le service d'Archik !<br>
+            <br>
+            Notre rénovation nous satisfait<br>
+            pleinement, fonctionnelle et<br>
+            tendance avec des matériaux de<br>
+            qualité !<br>
+            <br>
+            merci Archik!
+        </p>
+        <a>Lire plus -></a>
+        <h4>Émilie C.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_3">
+        <p>Nous avons apprécié les conseils<br>
+            que Camille nous a donnés!<br>
+            <br>
+            Très à l'écoute de nos besoins, elle<br>
+            a fait preuve de sérieux dans ses<br>
+            démarches et dans ses recherches.<br>
+            <br>
+            Merci et bonne continuation!
+        </p>
+        <a>Lire plus -></a>
+        <h4>Myriam D.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_4">
+        <p>Camille est pleine de créativité<br>
+            juvénile et son style me plaît.<br>
+            <br>
+            C'est pourquoi je l'ai choisie.
+        </p>
+        <a>Lire plus -></a>
+        <h4>Valérie D.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_5">
+        <p>J'ai eu l'occasion de collaborer avec Camille pour l'optimisation de
+            mon nouveau salon. Resultat : un vrai gain de place, un espace cocooning,
+            un plaisir d'y passer des soirées au chaud. Camille a su écouter nos demandes 
+            pour s'y adapter, toujours avec sourire et bonne humeur! Merci Camille
+        </p>
+        <a>Lire plus -></a>
+        <h4>Charlotte P.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_6">
+        <p>Architecte d'intérieur sérieuse et<br>
+            dynamique ayant de très bonne<br>
+            idée. Vous pouvez lui faire confiance<br>
+            dans la réalisation de <br>vos projets.
+        </p>
+        <a>Lire plus -></a>
+        <h4>Marine M.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_7">
+        <p>Architecte d'intérieur sérieuse et réaliste !</p>
+        <a>Lire plus -></a>
+        <h4>Julia L.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_8">
+        <p>J'ai collaboré avec Archik D'intérieur à l'occasion d'un salon dans
+            la région lilloise! Une architecte au top! Très à l'écoute, toujours
+            souriante. Un vrai plaisir ! Je recommande vivement.
+        </p>
+        <a>Lire plus -></a>
+        <h4>Romane B.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_9">
+        <p>Vous pouvez faire confiance à Camille les yeux fermés. A l'écoute,
+            dynamique et de bons conseils.
+        </p>
+        <a>Lire plus -></a>
+        <h4>France A.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <article class="comment_10">
+        <p>Une agence très professionnelle, sérieuse et à l'écoute de la demande 
+            pour des projets de qualité
+        </p>
+        <a>Lire plus -></a>
+        <h4>Mathilde V.</h4>
+        <picture class="quote_1">
+            <img src="pictures/Vector.webp" alt="Quote en haut à gauche">
+        </picture>
+        <picture class="quote_2">
+            <img src="pictures/Vector2.webp" alt="Quote en bas à droite">
+        </picture>
+    </article>
+    <footer>
+        <img src="pictures/archik_logo 1.webp" alt="Logo Archik Intérieur">
+        <picture class="image-container">
+            <img src="pictures/linkedin.webp">
+        </picture>
+        <picture class="image-container">
+            <img src="pictures/facebook.webp">
+        </picture>
+        <picture class="image-container">
+            <img src="pictures/instagram.webp">
+        </picture>
+        <p>Le design d’espace est l’art de comprendre la manière dont évoluent 
+            les personnes au sein d’un espace défini afin d’anticiper les besoins et 
+            les usages spécifiques.</p>
+    </footer>
 </body>
 </html>
