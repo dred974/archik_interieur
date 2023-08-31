@@ -489,7 +489,7 @@ article.comment_1 {
     top: 5000px;
     border: 1px solid #888888;
 }
-article p {
+section.all-comments article p {
     text-align: center;
     position: absolute;
     width: 414px;
@@ -501,7 +501,7 @@ article p {
     font-size: 25px;
     color: #888888;
 }
-article a {
+section.all-comments article a {
     position: absolute;
     width: 133px;
     height: 30px;
@@ -515,7 +515,7 @@ article a {
     text-align: center;
     color: #9FD7D3;
 }
-article h4 {
+section.all-comments article h4 {
     position: absolute;
     left: 350px;
     top: 425px;
@@ -525,14 +525,14 @@ article h4 {
     text-align: right;
     color: #888888;
 }
-article picture.quote_1 img {
+section.all-comments article picture.quote_1 img {
     position: absolute;
     width: 43px;
     height: 39px;
     top: -20px;
     left: -20px;
 }
-article picture.quote_2 img {
+section.all-comments article picture.quote_2 img {
     position: absolute;
     width: 43px;
     height: 39px;
