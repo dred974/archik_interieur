@@ -1,5 +1,6 @@
 body {
-    background-color: rgb(53, 207, 254);
+    background-image: url(pictures/background.webp);
+    background-attachment: fixed;
 }
 header {
     position: absolute;
@@ -61,7 +62,7 @@ picture.image-container img {
     width: 52px;
     height: 52px;
 }
-h1.description{
+main h2.description{
     position: absolute;
     width: 750px;
     height: 108px;
