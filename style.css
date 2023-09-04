@@ -304,7 +304,7 @@ article.Services p mark {
     font-size: 1em;
     color: black;
 }
-section h2 {
+section h2.title_2 {
     position: absolute;
     width: 427px;
     height: 54px;
