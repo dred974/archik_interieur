@@ -89,3 +89,85 @@ section.Localisation img {
     left: 110px;
     top: 1280px;
 }
+section.Email p {
+    position: absolute;
+    width: 186px;
+    height: 24px;
+    left: 165px;
+    top: 1344px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #888888;
+}
+section.Email img {
+    position: absolute;
+    left: 110px;
+    top: 1365px;
+}
+section.Telephone p {
+    position: absolute;
+    width: 186px;
+    height: 24px;
+    left: 165px;
+    top: 1414px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    color: #888888;
+}
+section.Telephone img {
+    position: absolute;
+    left: 110px;
+    top: 1430px;
+}
+footer {
+    background-color: black;
+    position: absolute;
+    width: 1905px;
+    height: 406px;
+    top: 1700px;
+    left: 0px;
+}
+footer picture.Logo img {
+    position: absolute;
+    width: 147px; height: 155px;
+    left: 900px;
+    top: 40px;
+}
+footer picture img {
+    position: absolute;
+    width: 1920px;
+    height: 996px;
+    left: 500px;
+    top: 60px;
+    z-index: 1;
+}
+footer picture.image-container {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    margin-left: 65px;
+}
+footer picture.image-container img {
+    float: left;
+    display: flex;
+    position: absolute;
+    top: 215px;
+    left: 821px;
+    width: 52px;
+    height: 52px;
+}
+footer p {
+    position: absolute;
+    left: 390px;
+    top: 300px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-size: 18px;
+    color: #FFFFFF;
+}
