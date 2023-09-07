@@ -22,7 +22,19 @@ header h1 a {
     font-style: normal;
     font-weight: 700;
     font-size: 30px;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  
 header nav ul {
     list-style-type: none;
     float: left;
@@ -76,7 +88,19 @@ main h2.description{
     font-size: 30px;
     line-height: 36px;
     color: #FFFFFF;
+    animation-duration: 3s;
+    animation-name: slidein;
 }
+@keyframes slidein {
+    from {
+      margin-left: 70%;
+    }
+  
+    to {
+      margin-left: 0%;
+    }
+  }
+  
 section.section-group {
     position: relative;
     padding: 20px;
@@ -169,6 +193,7 @@ article.Introduction {
     height: 657px;
     left: 0px;
     top: 1700px;
+    box-shadow: 0px 0px 19px 15px rgba(136, 136, 136, 0.1);
 }
 article.Introduction picture img {
     width: 923px;
@@ -212,6 +237,7 @@ article.Presentation_founder {
     height: 657px;
     left: 0px;
     top: 2500px;
+    box-shadow: 0px 0px 19px 15px rgba(136, 136, 136, 0.1);
 }
 article.Presentation_founder h2 {
     position: absolute;
@@ -255,6 +281,7 @@ article.Services {
     height: 657px;
     left: 0px;
     top: 3300px;
+    box-shadow: 0px 0px 19px 15px rgba(136, 136, 136, 0.1);
 }
 article.Services h2 {
     color: #9FD7D3;
