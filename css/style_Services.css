@@ -59,3 +59,347 @@ picture.Banner img {
     top: -8px;
     z-index: -1;
 }
+section.Introducing_text h2 {
+    position: absolute;
+    width: 750px;
+    height: 108px;
+    left: 85px;
+    top: 206px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+}
+section.Introducing_text h3 {
+    position: absolute;
+    width: 864px;
+    height: 60px;
+    left: 85px;
+    top: 470px;
+    font-family: 'Inter';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+section.Introducing_text p  {
+    position: absolute;
+    width: 163px;
+    height: 30px;
+    left: 85px;
+    top: 511px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+h2.Title_1 {
+    position: absolute;
+    width: 1193px;
+    height: 36px;
+    left: calc(50% - 1193px/2 + 0.5px);
+    top: 1096px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #888888;
+}
+section.Architecture_interieur_banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 76px 118px;
+    gap: 10px;
+    position: absolute;
+    width: 550px;
+    height: 20px;
+    left: 0px;
+    top: 1310px;
+    background: rgba(159, 215, 211, 0.95);
+    border-radius: 0px 5px 5px 0px;
+    z-index: 1;
+}
+section.Architecture_interieur_banner h2 {
+    width: 667px;
+    height: 36px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    white-space: nowrap;
+}
+picture.Architecture_interieur_picture img {
+    position: absolute;
+    width: 1905px;
+    height: 1280px;
+    left: 0px;
+    top: 1350px;
+}
+main aside {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 76px 118px;
+    gap: 10px;
+    position: absolute;
+    width: 603px;
+    height: 100px;
+    left: 1066px;
+    top: 2480px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 0px 0px 20px;
+}
+main aside p {
+    width: 703px;
+    height: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #888888;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+section.Text_1 p {
+    position: absolute;
+    width: 1750px;
+    height: 351px;
+    left: 85px;
+    top: 2855px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #888888;
+}
+section.Text_1 p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #9FD7D3;
+}
+section.First_step {
+    position: absolute;
+    width: 310px;
+    height: 158px;
+    left: 0px;
+    top: 3500px;
+}
+section.First_rectangle {
+    position: absolute;
+    width: 294px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    background: #9FD7D3;
+    border-radius: 0px 5px 5px 0px;
+}
+section.Second_rectangle {
+    position: absolute;
+    width: 310px;
+    height: 144px;
+    left: 0px;
+    top: 14px;
+    background: rgba(159, 215, 211, 0.5);
+    border-radius: 0px 5px 5px 0px;
+}
+section.First_step h2 {
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+}
+section.First_step p {
+    position: absolute;
+    width: 1750px;
+    height: 621px;
+    left: 85px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #888888;
+}
+section.First_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #888888;
+}
+section.Second_step {
+    position: absolute;
+    width: 310px;
+    height: 158px;
+    left: 0px;
+    top: 4500px;
+}
+section.Third_rectangle {
+    position: absolute;
+    width: 294px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    background: #9FD7D3;
+    border-radius: 0px 5px 5px 0px;
+}
+section.Fourth_rectangle {
+    position: absolute;
+    width: 310px;
+    height: 144px;
+    left: 0px;
+    top: 14px;
+    background: rgba(159, 215, 211, 0.5);
+    border-radius: 0px 5px 5px 0px;
+}
+section.Second_step h2 {
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+section.Second_step p {
+    position: absolute;
+    width: 1750px;
+    height: 621px;
+    left: 85px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #888888;
+}
+section.Second_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #888888;
+}
+section.Third_step {
+    position: absolute;
+    width: 310px;
+    height: 158px;
+    left: 0px;
+    top: 5300px;
+}
+section.Fifth_rectangle {
+    position: absolute;
+    width: 294px;
+    height: 144px;
+    left: 0px;
+    top: 0px;
+    background: #9FD7D3;
+    border-radius: 0px 5px 5px 0px;
+}
+section.Sixth_rectangle {
+    position: absolute;
+    width: 310px;
+    height: 144px;
+    left: 0px;
+    top: 14px;
+    background: rgba(159, 215, 211, 0.5);
+    border-radius: 0px 5px 5px 0px;
+}
+section.Third_step h2 {
+    position: absolute;
+    width: 156px;
+    height: 36px;
+    left: 78px;
+    top: 27px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+section.Third_step p {
+    position: absolute;
+    width: 1750px;
+    height: 621px;
+    left: 85px;
+    top: 250px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #888888;
+}
+section.Third_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #888888;
+}
+hr {
+    border: none;
+    display: block;
+    border-top: 10px dashed #9FD7D3;
+    position: absolute;
+    top: 6200px;
+    left: 80px;
+    z-index: -1;
+    width: 1749px;
+}
+h2.Title_2 {
+    position: absolute;
+    width: 1193px;
+    height: 36px;
+    left: calc(50% - 1193px/2 + 0.5px);
+    top: 6300px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #888888;
+}
