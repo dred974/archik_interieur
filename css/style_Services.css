@@ -764,12 +764,19 @@ section.Text_3 p {
     line-height: 27px;
     color: #888888;
 }
-section.Text_3 p mark {
+section.Text_3 p mark.Question {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
     font-size: 1.2em;
     color: #9FD7D3;
+}
+section.Text_3 p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1em;
+    color: #888888;
 }
 section.AC_First_step {
     position: absolute;
@@ -823,11 +830,18 @@ section.AC_First_step p {
     line-height: 27px;
     color: #888888;
 }
-section.AC_First_step p mark {
+section.AC_First_step p mark.Title {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
     font-size: 1.2em;
+    color: #888888;
+}
+section.AC_First_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1em;
     color: #888888;
 }
 section.AC_Second_step {
@@ -883,11 +897,18 @@ section.AC_Second_step p {
     line-height: 27px;
     color: #888888;
 }
-section.AC_Second_step p mark {
+section.AC_Second_step p mark.Title {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
     font-size: 1.2em;
+    color: #888888;
+}
+section.AC_Second_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1em;
     color: #888888;
 }
 section.AC_Third_step {
@@ -943,11 +964,18 @@ section.AC_Third_step p {
     line-height: 27px;
     color: #888888;
 }
-section.AC_Third_step p mark {
+section.AC_Third_step p mark.Title {
     font-style: normal;
     background-color: transparent;
     font-weight: bold;
     font-size: 1.2em;
+    color: #888888;
+}
+section.AC_Third_step p mark {
+    font-style: normal;
+    background-color: transparent;
+    font-weight: bold;
+    font-size: 1em;
     color: #888888;
 }
 footer {
