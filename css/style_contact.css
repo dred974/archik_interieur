@@ -70,7 +70,7 @@ section.Contact h2 {
     text-align: center;
     color: #9FD7D3;
 }
-section.Localisation p {
+section.Localisation h2 {
     position: absolute;
     width: 310px;
     height: 24px;
@@ -89,7 +89,7 @@ section.Localisation img {
     left: 110px;
     top: 1280px;
 }
-section.Email p {
+section.Email h2 {
     position: absolute;
     width: 186px;
     height: 24px;
@@ -107,7 +107,7 @@ section.Email img {
     left: 110px;
     top: 1365px;
 }
-section.Telephone p {
+section.Telephone h2 {
     position: absolute;
     width: 186px;
     height: 24px;

@@ -14,7 +14,7 @@ header {
     opacity: 0.8;
 }
 header h1 a {
-    color: white;
+    color: #FFFFFF;
     position: relative;
     top: 16px; left: 100px;
     text-decoration: none;
@@ -24,6 +24,7 @@ header h1 a {
     font-size: 30px;
     animation-duration: 3s;
     animation-name: slidein;
+    z-index: 1;
 }
 @keyframes slidein {
     from {
@@ -109,7 +110,7 @@ section.Introducing_text p  {
         opacity: 1;
     }
 }
-section.AD-HOC_Banner {
+div.AD-HOC_Banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -123,9 +124,12 @@ section.AD-HOC_Banner {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section.AD-HOC_Banner h2 {
+section.AD-HOC h2 {
+    position: absolute;
     width: 230px;
     height: 36px;
+    left: 222px;
+    top: 1170px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -136,6 +140,7 @@ section.AD-HOC_Banner h2 {
     flex: none;
     order: 0;
     flex-grow: 0;
+    z-index: 1;
 }
 section.AD-HOC picture img {
     position: absolute;
@@ -202,7 +207,7 @@ section.AD-HOC p.text_AD-HOC mark {
     font-size: 1.2em;
     color: #9FD7D3;
 }
-section.Café_Fernand_Banner {
+div.Café_Fernand_Banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -216,9 +221,10 @@ section.Café_Fernand_Banner {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section.Café_Fernand_Banner h2 {
+section.Café_Fernand h2 {
     position: absolute;
-    left: 110px;
+    left: 805px;
+    top: 1170px;
     width: 230px;
     height: 36px;
     font-family: 'Inter';
@@ -232,6 +238,7 @@ section.Café_Fernand_Banner h2 {
     order: 0;
     flex-grow: 0;
     white-space: nowrap;
+    z-index: 1;
 }
 section.Café_Fernand picture img {
     position: absolute;
@@ -305,7 +312,7 @@ section.Café_Fernand p.Café_Fernand_text mark.dark_gray_text{
     font-size: 1em;
     color: #898989;
 }
-section.Accord_Caviste_Banner {
+div.Accord_Caviste_Banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -319,9 +326,10 @@ section.Accord_Caviste_Banner {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section.Accord_Caviste_Banner h2 {
+section.Accord_Caviste h2 {
     position: absolute;
-    left: 100px;
+    top: 1170px;
+    left: 1392px;
     width: 230px;
     height: 36px;
     font-family: 'Inter';
@@ -401,7 +409,7 @@ section.Accord_Caviste p.Accord_Caviste_text mark{
     font-size: 1.2em;
     color: #9FD7D3;
 }
-section.Bar_à_ongles_Banner {
+div.Bar_à_ongles_Banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -415,11 +423,12 @@ section.Bar_à_ongles_Banner {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section.Bar_à_ongles_Banner h2 {
+section.Bar_à_ongles h2 {
     position: absolute;
+    top: 3625px;
     width: 230px;
     height: 36px;
-    left: 126px;
+    left: 190px;
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
@@ -431,6 +440,7 @@ section.Bar_à_ongles_Banner h2 {
     order: 0;
     flex-grow: 0;
     white-space: nowrap;
+    z-index: 1;
 }
 section.Bar_à_ongles picture img {
     position: absolute;
@@ -497,7 +507,7 @@ section.Bar_à_ongles p.Bar_à_ongles_text mark {
     font-size: 1.2em;
     color: #9FD7D3;
 }
-section.Restaurant_Banner {
+div.Restaurant_Banner {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -511,9 +521,10 @@ section.Restaurant_Banner {
     background: #9FD7D3;
     border-radius: 5px;
 }
-section.Restaurant_Banner h2 {
+section.Restaurant h2 {
     position: absolute;
-    left: 110px;
+    top: 3625px;
+    left: 823px;
     width: 230px;
     height: 36px;
     font-family: 'Inter';
@@ -527,6 +538,7 @@ section.Restaurant_Banner h2 {
     order: 0;
     flex-grow: 0;
     white-space: nowrap;
+    z-index: 1;
 }
 section.Restaurant picture img {
     position: absolute;
